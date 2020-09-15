@@ -1,0 +1,29 @@
+body {
+    padding: 1em 2em;
+  }
+  
+  ul, ol {
+    list-style: none;
+    padding: 0;
+}
+li {
+  text-align: center;
+  line-height: 2;
+  background: slategrey;
+}
+
+div {
+    width: 12em;
+    float: left;
+    margin-right: 2em;
+  }
+
+  
+  /* maak je selectors hier. Gebruik het volgende achtergrondkleur: lightsteelblue;*/
+  
+.one li:first-child,
+.two ol li:nth-child(3),
+.three ul li:nth-child(-n + 3)
+  {
+      background-color: lightsteelblue;
+  }
